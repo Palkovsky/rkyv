@@ -14,7 +14,7 @@ repository = "https://github.com/rkyv/rkyv"
 ptr_meta = { workspace = true, default-features = false }
 rkyv = { path = "../rkyv", default-features = false }
 wasm-bindgen-test = { workspace = true, optional = true }
-ahash = { version = "0.7" }
+ahash = { version = "0.8" }
 
 [features]
 default = ["std", "size_32", "validation"]
